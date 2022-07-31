@@ -56,7 +56,7 @@ Bonus : envoie bouler l'utilisateur s'il saisit un nombre pair.
 ---------------
 ---------------
 
-2.3. Programme 2 : Mon petit mot de passe
+2.3. PROGRAMME 2 : Mon petit mot de passe
 
 Ramsès II t'a recommandé auprès d'Edward Snowden pour coder un programme de cybersécurité. Le but est de faire un écran de sécurité qui demande à l'utilisateur de définir un mot de passe, et un autre qui lui demande de le saisir.
 
@@ -103,7 +103,7 @@ Maintenant englobe l'exécution de chaque méthode dans une méthode perform qui
 ---------------
 ---------------
 
-2.4. Programme 3 : 6ème sans ascenseur
+2.4. PROGRAMME 3 : 6ème sans ascenseur
 
 Tu vas maintenant coder un super jeu qui déchire. Mario n'a qu'à bien se tenir avec sa pyramide ! Nous allons imaginer un programme dans lequel une gentille personne va devoir monter 10 marches en fonction d'un jet de dé. Une version informatique du jeu de l'oie en quelque sorte !
 
