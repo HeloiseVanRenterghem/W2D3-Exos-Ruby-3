@@ -5,44 +5,31 @@
 
 Vald a besoin de toi pour l'écriture de sa prochaine chanson à succès : il lui faudrait un programme qui dit bonjour.
 
----------------
-
 ### 2.1.1 Dis bonjour
 
 Code une méthode say_hello qui va dire bonjour quand on l'exécute.
 
----------------
-
 ### 2.1.2 Coucou toi
 
 Modifie la méthode pour qu'elle prenne désormais en entrée une variable first_name et que ton script affiche "Bonjour, first_name !"
-
----------------
 
 ### 2.1.3 Le combo
 
 Maintenant rajoute une méthode ask_first_name qui demande à l'utilisateur son prénom et retourne le résultat avec un return. Combine-la avec ta say_hello(first_name) pour avoir un programme qui demande à l'utilisateur son prénom et lui dit bonjour.
 
 ---------------
----------------
 
 ## 2.2. PROGRAMME 1 : vacances en Égypte
 
 Ramsès II a été impressionné par ton savoir-faire architectural de précédemment et voudrait te débaucher pour construire des pyramides dont on parlera encore dans 4000 ans. Pas besoin de bipper Panoramix et sa bande pour le taff : Ruby sera ta potion magique.
 
----------------
-
 ### 2.2.1 Moitié de pyramide
 
 Reprends ton deuxième exercice de la pyramide en l'encapsulant dans une méthode half_pyramid.
 
----------------
-
 ### 2.2.2 Pyramide de Gizeh
 
 Catastrophe, cette pyramide ne tient pas debout, tout s'effondre sur le côté. Ramsès II a le sum, mais grâce à une superbe présentation PowerPoint bien pipeautée, tu as pu lui vendre la version premium de la pyramide : celle avec deux côtés. Crée une méthode full_pyramid qui va construire plusieurs étages.
-
----------------
 
 ### 2.2.3. Alexandrie, Alexandra
 
@@ -53,7 +40,6 @@ Crée une méthode wtf_pyramid qui va générer plusieurs étages en losange.
 Bonus : envoie bouler l'utilisateur s'il saisit un nombre pair.
 
 ---------------
----------------
 
 ## 2.3. PROGRAMME 2 : Mon petit mot de passe
 
@@ -62,8 +48,6 @@ Ramsès II t'a recommandé auprès d'Edward Snowden pour coder un programme de c
 Tant que l'utilisateur ne donne pas le bon mot de passe, le programme le lui redemande.
 
 Si l'utilisateur rentre le bon mot de passe, il accède à un espace secret.
-
----------------
 
 ### 2.3.1. Décomposition du programme
 
@@ -75,31 +59,22 @@ Le programme va se décomposer en trois parties :
 
 - une partie welcome_screen, affichant un écran de bienvenue avec des informations top secrètes de la NSA
 
----------------
-
 ### 2.3.2. Méthode signup
 
 La partie signup sera assez simple, le programme va demander à l'utilisateur de définir un mot de passe et le garder en mémoire (en le stockant dans une variable).
 
----------------
-
-### 2.3.2. Méthode login
+### 2.3.3. Méthode login
 
 La partie login va demander à l'utilisateur son mot de passe. Tant que l'utilisateur n'a pas rentré le même mot de passe que renseigné au moment du signup, le programme va lui dire qu'il s'est trompé et qu'il doit recommencer. Si l'utilisateur trouve le bon mot de passe, le programme va le rediriger vers l'écran d'accueil.
 
----------------
-
-### 2.3.3. Méthode welcome_screen
+### 2.3.4. Méthode welcome_screen
 
 L'écran d'accueil va dire à l'utilisateur qu'il est bienvenu dans sa zone secrète, et lui dire quelques secrets (par exemple le contenu – supposé – des textos et messages WhatsApp du téléphone d'un des membres de ton groupe).
 
----------------
-
-### 2.3.4. Méthode perform
+### 2.3.5. Méthode perform
 
 Maintenant englobe l'exécution de chaque méthode dans une méthode perform qui va appeler chaque morceau de code dans le bon ordre.
 
----------------
 ---------------
 
 ## 2.4. PROGRAMME 3 : 6ème sans ascenseur
